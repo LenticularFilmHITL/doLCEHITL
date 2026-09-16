@@ -1,0 +1,14 @@
+numpy
+torch
+matplotlib
+argparse
+tqdm
+Pillow==9.5.0
+tensorboard
+torchvision
+scipy
+segmentation-models-pytorch
+joblib
+scikit-image
+albumentations
+gradio

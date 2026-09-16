@@ -1,0 +1,15 @@
+#old_ds button[aria-label="Delete image"],
+#new_ds button[aria-label="Delete image"],
+#old_ds button[aria-label="Click to upload or drop files"],
+#new_ds button[aria-label="Click to upload or drop files"] {
+    pointer-events: none !important;
+    opacity: 0 !important;
+}
+
+#old_ds .icon-button-wrapper:has(button[aria-label="Click to Upload"], button[aria-label="Clear"]),
+#new_ds .icon-button-wrapper:has(button[aria-label="Click to Upload"], button[aria-label="Clear"]),
+#param_frame button[aria-label="Select column"],
+#param_frame button[aria-label="Select row"],
+#param_frame button[aria-label="Open cell menu"] {
+    display: none !important;
+}

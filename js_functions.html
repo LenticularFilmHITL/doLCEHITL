@@ -1,0 +1,80 @@
+<script>
+    window.myOldSelectedFn = (name, ...args) => {
+        const gallery = document.getElementById("old_ds");
+        if (!gallery) return ["", ...args];
+
+        const thumbnail = gallery.querySelector('.thumbnail-item.selected');
+        if (!thumbnail) return ["", ...args];
+
+        const captionLabel = thumbnail.querySelector('.caption-label');
+        if (!captionLabel) return ["", ...args];
+
+        const caption = captionLabel.textContent.trim();
+
+        return [caption, ...args];
+    };
+    window.myNewSelectedFn = (name, ...args) => {
+        const gallery = document.getElementById("new_ds");
+        if (!gallery) return ["", ...args];
+
+        const thumbnail = gallery.querySelector('.thumbnail-item.selected');
+        if (!thumbnail) return ["", ...args];
+
+        const captionLabel = thumbnail.querySelector('.caption-label');
+        if (!captionLabel) return ["", ...args];
+
+        const caption = captionLabel.textContent.trim();
+
+        return [caption, ...args];
+    };
+    window.myTakeFn = (name, ...args) => {
+        const gallery = document.getElementById("old_ds");
+        if (!gallery) return ["", ...args];
+
+        const thumbnail = gallery.querySelector('.thumbnail-item.selected');
+        if (!thumbnail) return ["", ...args];
+
+        const captionLabel = thumbnail.querySelector('.caption-label');
+        if (!captionLabel) return ["", ...args];
+
+        const caption = captionLabel.textContent.trim();
+
+        const item = thumbnail.closest('.gallery-item');
+        if (!item) return ["", ...args];
+
+        const deleteButton = item.querySelector('.delete-button') || item.querySelector('button[aria-label="Delete image"]');
+
+        if (deleteButton) {
+            deleteButton.click();
+        } else {
+            return ["", ...args];
+        }
+
+        return [caption, ...args];
+    };
+    window.myRemoveFn = (name, ...args) => {
+        const gallery = document.getElementById("new_ds");
+        if (!gallery) return ["", ...args];
+
+        const thumbnail = gallery.querySelector('.thumbnail-item.selected');
+        if (!thumbnail) return ["", ...args];
+
+        const captionLabel = thumbnail.querySelector('.caption-label');
+        if (!captionLabel) return ["", ...args];
+
+        const caption = captionLabel.textContent.trim();
+
+        const item = thumbnail.closest('.gallery-item');
+        if (!item) return ["", ...args];
+
+        const deleteButton = item.querySelector('.delete-button') || item.querySelector('button[aria-label="Delete image"]');
+
+        if (deleteButton) {
+            deleteButton.click();
+        } else {
+            return ["", ...args];
+        }
+
+        return [caption, ...args];
+    };
+</script>
