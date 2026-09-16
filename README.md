@@ -15,6 +15,21 @@ Historical lenticular films, such as those created with the Kodacolor process, e
 - **`preprocess_dataset.py`**: Preprocesses raw scans into dataset by cropping, grayscale-converting and flipping (only needed for BGR encoded lenticules).
 - **`finish_colorized_frame.py`**: Merges reconstructed chrominance back into the full-resolution scan to improve detail.
 
+
+### How to pull the checkpoints and images
+
+Run the following commands to download the checkpoints
+
+1. **Install Git LFS** (if you haven't already on your system):
+   ```bash
+   git lfs install
+   ```
+
+2. **Pull the actual LFS files**:
+   ```bash
+   git lfs pull
+   ```
+
 ## Installation
 
 Clone the repository and place your imageset in `data/images/raw/<YOUR_SET>/`:
