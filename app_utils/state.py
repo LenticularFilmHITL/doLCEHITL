@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import numpy as np
 from PIL import Image
-import clean_app.config as config
+import app_utils.config as config
 from fractions import Fraction
 import os
 
