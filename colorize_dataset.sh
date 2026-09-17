@@ -4,7 +4,7 @@ set -euo pipefail
 TAG="${TAG:-__}"
 DEVICE="${DEVICE:-cuda}"
 EXP_ID="${EXP_ID:-0}"
-DATASET="${DATASET:-norway_test}"
+DATASET="${DATASET:-norwegen_test_dataset}"
 LAMBDA_1="${LAMBDA_1:-1.0}"
 LAMBDA_2="${LAMBDA_2:-10.0}"
 
