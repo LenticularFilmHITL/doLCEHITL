@@ -1,6 +1,6 @@
 # HitL Color Reconstruction of Lenticular Films
 
-Official implementation of the paper **"A Human-in-the-Loop Deep Learning Framework for Color Reconstruction of Lenticular Films"** ([arXiv:2608.02835](https://arxiv.org/abs/2608.02835)).
+Official implementation of the paper **"A Human-in-the-Loop Deep Learning Framework for Color Reconstruction of Lenticular Films"** ([arXiv:2608.02835](https://arxiv.org/abs/2608.02835)).\
 Official project page containing additional context and resources ([lenticularfilmhitl.github.io](https://lenticularfilmhitl.github.io/)).
 
 ## Abstract
