@@ -106,7 +106,7 @@ The app walks through five steps:
 
 ### Main collaborators
 
-- Saptarshi Neil Sinha — Project administration and conceptualization
+- Saptarshi Neil Sinha — Project administration and conceptualization (HITL approach)
 - Tiago Kleist
 - Giorgio Trumpy
 
@@ -138,6 +138,20 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
+
+## Acknowledgments and third-party code
+
+The lenticule **detection** and **colorization** code in this repository is based on
+[DeepDoLCE](https://github.com/LenticularFilms/DeepDoLCE). We thank the authors for
+making their work publicly available.
+
+> **Note:** The reused detection code is subject to the license terms of the original
+> DeepDoLCE repository. Please consult the
+> [DeepDoLCE license](https://github.com/LenticularFilms/DeepDoLCE) before using,
+> redistributing, or building upon the detection part of this project. The MIT license
+> below applies to the code originally contributed by this project only.
+
+
 
 ## Citation
 
