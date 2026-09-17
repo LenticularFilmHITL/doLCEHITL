@@ -16,16 +16,21 @@ Historical lenticular films, such as those created with the Kodacolor process, e
 - **`finish_colorized_frame.py`**: Merges reconstructed chrominance back into the full-resolution scan to improve detail.
 
 
-### How to pull the checkpoints and images
+### How to clone the repository and pull the checkpoints and images
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/LenticularFilmHITL/doLCEHITL.git
+   ```
 
 Run the following commands to download the checkpoints
 
-1. **Install Git LFS** (if you haven't already on your system):
+2. **Install Git LFS** (if you haven't already on your system):
    ```bash
    git lfs install
    ```
 
-2. **Pull the actual LFS files**:
+3. **Pull the actual LFS files**:
    ```bash
    git lfs pull
    ```
@@ -95,18 +100,6 @@ The app walks through five steps:
    - When done enter a dataset name at the bottom of the page. On confirmation the dataset is created and written to `/datasets/<name>/`.
 5. **Training**: Adjust parameters if needed (empty cell = default) and press **train**.
    - On completion either start another training with different parameters on the same dataset, or reload the page and start over from step 1 with the new checkpoint.
-
-## Demo
-
-Demo of using **app.py**
-
-<details>
-<summary>Preview as GIF / local file</summary>
-
-
-Full resolution: 
-
-</details>
 
 ## Authors and acknowledgment
 
